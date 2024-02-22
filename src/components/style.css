@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    img{
+        height: 15dvh;
+    }
+}
+
+.left-text{
+    color: aquamarine;
+}
+img{
+    height: 10dvh;
+    width: 10dvw;
+}
+.imag{
+    margin-top: 1dvh;
+    background-color: antiquewhite;
+    height: auto;
+    width: 99dvw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.image-box{
+    background-color: rgb(147, 207, 207);
+    text-align: center;
+    padding: 1dvw;
+    cursor: pointer;
+}
+
+.score-container{
+    color: aqua;
+}
